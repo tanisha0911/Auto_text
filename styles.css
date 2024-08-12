@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Typewriter";
+  src: url("Font/TravelingTypewriter.woff2") format("woff2"),
+    url("Font/TravelingTypewriter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #a276e9;
+  font-family: "Typewriter";
+  font-weight: bold;
+}
